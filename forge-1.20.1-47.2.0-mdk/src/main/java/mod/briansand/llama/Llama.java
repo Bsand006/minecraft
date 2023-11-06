@@ -1,6 +1,7 @@
 package mod.briansand.llama;
 
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.level.BlockEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -22,6 +23,11 @@ public class Llama {
 	        @SubscribeEvent
 	        public static void onBlockBreak(BlockEvent.BreakEvent event) { // subscribes to block breaking event bus
 	            LlamaEvents.onBlockBreak(event); // run onBlockBreak when event is triggered
+	        }
+	        
+	        @SubscribeEvent
+	        public static void onItemTaken(PlayerEvent.ItemPickupEvent event) {
+	        	ItemEvents.onItemTaken(event);
 	        }
 	    }
 
