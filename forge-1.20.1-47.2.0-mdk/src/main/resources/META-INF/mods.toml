@@ -7,11 +7,11 @@
     license="MIT"
 
     [[mods]]
-      modId="llamamod"
+      modId="branmod"
       version="1.0.0.0"
-      displayName="llama mod"
+      displayName="Mod of stuff"
       displayURL="minecraftforge.net"
-      credits="I'd like to thank my mother and father."
+      credits="I'd like to thank Stack Overflow"
       authors="Author"
       description='''
     become llama

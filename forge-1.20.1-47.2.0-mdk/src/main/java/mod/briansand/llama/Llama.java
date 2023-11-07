@@ -8,7 +8,7 @@ import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-@Mod("llamamod")
+@Mod("branmod")
 public class Llama {
 	  
 	private static final Logger LOGGER = LogManager.getLogger(); // Initialize logger
@@ -18,7 +18,7 @@ public class Llama {
 	    }
 	    
 	    // Declare event bus subscriber
-	    @Mod.EventBusSubscriber(modid = "llamamod", bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
+	    @Mod.EventBusSubscriber(modid = "branmod", bus = Mod.EventBusSubscriber.Bus.FORGE, value = Dist.CLIENT)
 	    public static class RegistryEvents {
 	        @SubscribeEvent
 	        public static void onBlockBreak(BlockEvent.BreakEvent event) { // subscribes to block breaking event bus
