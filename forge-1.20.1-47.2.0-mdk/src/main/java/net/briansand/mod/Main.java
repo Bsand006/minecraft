@@ -3,6 +3,8 @@ package net.briansand.mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import net.briansand.mod.blocks.ModBlocks;
+import net.briansand.mod.item.ModCreativeTabs;
 import net.briansand.mod.item.ModItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,12 +26,12 @@ public class Main {
 	public Main() {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus(); // Initialize event bus
 
+		ModCreativeTabs.register(modEventBus); // Register custom tab
 		ModItem.register(modEventBus); // Register custom items
+		ModBlocks.register(modEventBus);
 
 		modEventBus.addListener(this::commonSetup); // Add event bus to listener
-
 		MinecraftForge.EVENT_BUS.register(this);
-
 		modEventBus.addListener(this::addCreative);
 	}
 

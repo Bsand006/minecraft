@@ -8,11 +8,12 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
 public class ModItem {
-	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID); // Initialize register
+	public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Main.MOD_ID); // Initialize
+																													// register
 
 	public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire", // Create Sapphire object
 			() -> new Item(new Item.Properties()));
-	
+
 	public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire", // Create raw Sapphire object
 			() -> new Item(new Item.Properties()));
 

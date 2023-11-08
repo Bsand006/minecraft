@@ -1,4 +1,9 @@
 {
   "item.branmod.sapphire" : "Sapphire",
   "item.branmod.raw_sapphire": "Raw Sapphire",
+  
+  "block.branmod.sapphire_block": "Block of Sapphire",
+  "block.branmod.raw_sapphire_block": "Block of raw Sapphire",
+  
+  "creativetab.mod_tab": "Mod Tab"
 }
