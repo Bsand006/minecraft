@@ -1,5 +1,8 @@
 package net.briansand.mod;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import net.briansand.mod.item.ModItem;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -16,8 +19,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 public class Main {
 
 	public static final String MOD_ID = "branmod"; // Declare MODID
-	// public static final Logger LOGGER = (Logger) LogUtils.getLogger(); //
-	// Initialize Logger
+	public static final Logger LOGGER = LogManager.getLogger(); // Initialize Logger
 
 	public Main() {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus(); // Initialize event bus
