@@ -8,7 +8,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-public class CreativeModeTabs {
+public class ModCreativeTabs {
 
 	public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister
 			.create(Registries.CREATIVE_MODE_TAB, Main.MOD_ID);
