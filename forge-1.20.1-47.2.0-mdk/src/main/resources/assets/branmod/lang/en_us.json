@@ -4,6 +4,8 @@
   
   "block.branmod.sapphire_block": "Block of Sapphire",
   "block.branmod.raw_sapphire_block": "Block of raw Sapphire",
+  "block.branmod.sapphire_ore": "Sapphire ore",
+  "block.branmod.deepslate_sapphire_ore": "Deepslate Sapphire ore",
   
   "creativetab.mod_tab": "Mod Tab"
 }

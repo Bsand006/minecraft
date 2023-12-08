@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients" : [
+		{
+			"item": "branmod:sapphire_block"
+		}
+	],
+	"result": {
+		"item": "branmod:sapphire",
+		"count": 9
+	}
+
+}
+	

@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "branmod:sapphire"
+		}
+	},
+	
+	"result": {
+		"item": "branmod:sapphire_block"
+		}
+}
+		
