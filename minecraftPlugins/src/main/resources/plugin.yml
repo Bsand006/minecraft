@@ -1,0 +1,12 @@
+name: FirstPlugin
+version: "1.0"
+main: minecraft.minecraftPlugins.Main
+load: STARTUP
+api-version: '1.19'
+prefix: SuperCoolPlugin
+
+commands:
+  kit:
+    description: Test command
+    usage: /kit
+    
