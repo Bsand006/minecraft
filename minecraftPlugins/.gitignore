@@ -1,0 +1,5 @@
+/target/
+.settings/
+src/main/resources/cred.yml
+.classpath
+.project
