@@ -1,4 +1,4 @@
-  package minecraft.minecraftPlugins;
+package minecraft.minecraftPlugins;
 
 import org.bukkit.Material;
 import org.bukkit.command.Command;
@@ -12,8 +12,6 @@ public class Kit implements CommandExecutor {
 	@Override
 	public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
 
-		
-		
 		if (sender instanceof Player) {
 			Player player = (Player) sender;
 			ItemStack birch = new ItemStack(Material.BIRCH_LOG);

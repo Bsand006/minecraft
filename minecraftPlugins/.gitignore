@@ -1,5 +1,5 @@
 /target/
 .settings/
-src/main/resources/cred.yml
+src/main/resources/creds.yml
 .classpath
 .project

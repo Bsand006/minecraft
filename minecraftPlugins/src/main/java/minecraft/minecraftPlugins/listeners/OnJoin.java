@@ -1,4 +1,4 @@
-package minecraft.minecraftPlugins;
+package minecraft.minecraftPlugins.listeners;
 
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
