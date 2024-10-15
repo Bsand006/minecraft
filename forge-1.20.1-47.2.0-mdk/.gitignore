@@ -1,6 +1,16 @@
+<<<<<<< HEAD
 /.gradle/
 .classpath
 .project
 .settings/
 bin/
 build/
+=======
+.settings/
+.gradle/
+bin/
+build/
+run/
+.classpath
+.project
+>>>>>>> branch 'master' of https://github.com/Bsand006/minecraft.git

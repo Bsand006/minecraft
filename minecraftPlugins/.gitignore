@@ -1,4 +1,11 @@
 /target/
+<<<<<<< HEAD
 .classpath
 .project
 .settings/
+=======
+.settings/
+src/main/resources/creds.yml
+.classpath
+.project
+>>>>>>> branch 'master' of https://github.com/Bsand006/minecraft.git
